@@ -8,7 +8,7 @@ public class JenkinsResource {
 	
 	@GetMapping("/genkinstodocker")
 	public String showGenkinsMessage() {
-		return "welcome to jenkins to docker integration..";
+		return "welcome to jenkins to docker integration...";
 	}
 
 }
